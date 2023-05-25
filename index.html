@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="We are a home decor store with a wide range and careful selection of things that suit you">
+    <meta name="robots" content="noyaca">
+
+    <meta name="author" content="Popadiuk Diana Mykolaivna">
+    <meta name="copyright" lang="en" content="Cosiness">
+
+    <meta property="og:image" content="">
+    <meta property="og:tittle" content="Cosiness.Home decor.Decorations.">
+    <meta property="og:description" content="We are a home decor store with a wide range and careful selection of things that suit you">
+    <meta property="og:url" content="#">
+
+
+    <title>Cosiness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/index.css" />
+</head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <span class="header__logo">Cosiness</span>
+        <button class="mob-menu">
+          <img class="mob-menu__img" alt="burger" src="./media/burger.svg" />
+        </button>
+        <div class="menu-wrapper__header">
+          <div class="menu-links" style="flex-direction: row; margin-top: 0; margin-right: 48px;">
+            <a href="#home" style="font-size: 16px">Home</a>
+            <a href="#shop" style="font-size: 16px">Shop</a>
+            <a href="#about" style="font-size: 16px">About</a>
+          </div>
+          <div class="lang" style="margin-right: 24px;">
+            <a>UA</a>
+            <a>EN</a>
+          </div>
+          <div>
+            <img alt="cart" width="30px" height="30px" src="./media/cart.png" />
+          </div>
+        </div>
+  
+      </div>
+      </div>
+    </header>
+    <main>
+      <section class="section--main">
+        <img class="section--main__img" src="./media/candles.png" />
+        <div class="container center sm">
+          <div class="text-descr">
+            Let yourself be wrapped in warmth and cosiness.
+          </div>
+        </div>
+      </section>
+      <section class="dark" id="shop">
+        <div class="container">
+          <h2 class="subtitle center">TOP ITEMS</h2>
+          <div class="shop-items">
+            <div class="shop-item">
+              <img src="./media/shop_item_1.png" />
+              <div class="shop-item__title">Flower pot</div>
+              <div class="shop-item__cost">$9.99</div>
+            </div>
+            <div class="shop-item">
+              <img src="./media/shop_item_2.png" />
+              <div class="shop-item__title">Vase</div>
+              <div class="shop-item__cost">$14.99</div>
+            </div>
+            <div class="shop-item">
+              <img src="./media/shop_item_3.png" />
+              <div class="shop-item__title">Night lamp</div>
+              <div class="shop-item__cost">$7.99</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="padding-y" id="home">
+        <div class="container flex-row">
+          <div class="text-descr--secondary">our merchandising design</div>
+          <img class="card-img" src="./media/ware.png" />
+        </div>
+        <div class="text-descr-tertiary">
+          For orders over $50, we include a shopping bag, sweatshirt, t-shirt,
+          or cup as a gift.
+        </div>
+      </section>
+      <section class="dark relative padding-y" id="about">
+        <img class="card-img img-absolute" src="./media/candle.png" />
+        <div class="container margin-left">
+          <h1 class="title">More about our shop</h1>
+          <p class="descr">
+            We are a small online store that will give your home cosiness and
+            comfort. Simple details can change the atmosphere in your home.
+          </p>
+          <a class="button-gray" href="#"> learn more </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__descr">
+          <div>Return of goods</div>
+          <div>Help and contact</div>
+          <div>How to place an order</div>
+        </div>
+        <div class="socials footer__socials">
+          <div class="socials__item">
+            <img
+              alt="insta"
+              width="30px"
+              height="30px"
+              src="./media/insta.png"
+            />
+            <a href="#">@cosinessss</a>
+          </div>
+          <div class="socials__item">
+            <img
+              alt="insta"
+              width="30px"
+              height="30px"
+              src="./media/phone.png"
+            />
+            <a href="#">+380973924416</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="menu-wrapper">
+      <div class="menu-wrapper__header">
+        <div class="lang">
+          <a class="menu-item-click">UA</a>
+          <a class="menu-item-click">EN</a>
+        </div>
+        <div>
+          <img class="menu-item-click" alt="cart" width="30px" height="30px" src="./media/cart.png" />
+        </div>
+      </div>
+ 
+      <div class="menu-links">
+        <a href="#home" class="menu-item-click">Home</a>
+        <a href="#shop" class="menu-item-click">Shop</a>
+        <a href="#about" class="menu-item-click">About</a>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
